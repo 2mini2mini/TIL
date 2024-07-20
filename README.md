@@ -11,6 +11,8 @@
 
 ## 📖 JavaScript
 * [240716~](./JavaScript/chapter_1.md) 1장 자바스크립트 시작하기
+* [240717~](./JavaScript/chapter_2.md) 2장 데이터 형과 연산자
+
 
 ## 📖 Vue.js
 -
