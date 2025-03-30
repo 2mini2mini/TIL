@@ -23,11 +23,11 @@
 
 - 배열에서 특정 요소의 존재 여부 파악하는데 사용
 
-    <script>
+         <script>
             const fruits = ["사과", "오렌지", "수박", "감", "키위"];
             let result1 = fruits.includes("키위");
             let result2 = fruits.includes("파인애플");
-  
+
             let text = "";
             text += result1 += "<br>";
             text += result2;
@@ -40,15 +40,15 @@
 
 - 배열에서 특정 요소를 추출하는데 사용
 
-    <script>
+          <script>
             const fruits = ["사과", "오렌지", "수박", "감", "키위"];
             let result1 = fruits.includes("키위");
             let result2 = fruits.includes("파인애플");
-  
+
             let text = "";
             text += result1 += "<br>";
             text += result2;
             document.getElementById("show").innerHTML = text;
-        </script>
+          </script>
 
 - 배열에 특정 요소가 존재하면 true, 그렇지 않으면 false를 반환
