@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.content {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  font-size: 40px;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.content button {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 3px 3px 3px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}

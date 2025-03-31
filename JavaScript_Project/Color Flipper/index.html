@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="content">
+        <h1>
+          <span>Background Color :</span>
+          <span>#FFFFFF</span>
+        </h1>
+        <button type="button">CLICK ME</button>
+      </div>
+    </div>
+
+    <script>
+      // hexElements 배열: HEX 색상을 구성하는 문자들을 배열로 저장 / 16 진수 색상 코드를 랜덤으로 만들때 사용
+      const hexElements = [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+      ];
+      // btnCilckerHander()함수
+      function btnClickHandler() {
+        let hexcode = "#"; // hex 색상 시작 기호(#)
+        for (let i = 0; i < 6; i++) {
+          hexcode += hexElements[getRandomNumber()]; //for문을 이용해 6자리 hex색상을 랜덤으로 생성
+        }
+
+        document.querySelector(
+          ".content h1 span:last-child"
+        ).innerText = `${hexcode}`; //h1의 마지막 span 태그에 생성된 hex코드 표시
+        document.body.style.backgroundColor = hexcode; // body 배경색을 변경
+        document.querySelector(".content h1 span:last-child").style.color =
+          hexcode; //hex코드 색상을 글자 색상으로 변경
+      }
+
+      // getRandomNumber()함수
+      function getRandomNumber() {
+        return Math.floor(Math.random() * hexElements.length);
+      } // hexElement.length는 16(0~15) /Math.random() * 16은 0이상 16미만의 난수를 생성 / Math.floor()로 소수점을 제거하여 0~15 정수 값 반환
+
+      // 이벤트 리스너 추가
+      document
+        .querySelector(".content button") //querySelector()로 버튼 선택
+        .addEventListener("click", btnClickHandler); //버튼 클릭시 btnCilckHandler() 실행
+
+      // 페이지 로드 시 첫번째 배경 변경
+      btnClickHandler();
+    </script>
+  </body>
+</html>

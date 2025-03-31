@@ -15,6 +15,8 @@
 
 - [240716~](./JavaScript/chapter_1.md) 1. 자바스크립트 시작하기
 - [240717~](./JavaScript/chapter_2.md) 2. 데이터 형과 연산자
-- [250311](./JavaScript/chapter_9-3.md) 9.3 배열 요소 추출/검색
+- [250331](./JavaScript/chapter_9-3.md) 9.3 배열 요소 추출/검색
 
-## 📖 JavaScript Project
+## 🖥️ JavaScript Project
+
+- [250331](./JavaScript_Project/ColorFlipper/index.html) Color Flipper
