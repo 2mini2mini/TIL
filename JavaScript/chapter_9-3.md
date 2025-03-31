@@ -40,15 +40,37 @@
 
 - 배열에서 특정 요소를 추출하는데 사용
 
-          <script>
-            const fruits = ["사과", "오렌지", "수박", "감", "키위"];
-            let result1 = fruits.includes("키위");
-            let result2 = fruits.includes("파인애플");
+        <script>
+            const animals = ["사자", "호랑이", "사슴", "펭귄", "여우", "앵무새"];
+            let arr1 = animals.slice(1,3); // 인덱스 1부터 3사이의 요소(3은 포함하지 않음)
+            let arr2 = animals.slice(2,); //인덱스 2부터 끝까지의 요소
+            let arr3 = animals.slice(-3, -1); //끝에서 3번째 요소부터 끝에서 2번째 요소
 
             let text = "";
-            text += result1 += "<br>";
-            text += result2;
+            text += arr1 + "<br>";
+            text += arr2 + "<br>";
+            text += arr3;
             document.getElementById("show").innerHTML = text;
-          </script>
+        </script>
 
-- 배열에 특정 요소가 존재하면 true, 그렇지 않으면 false를 반환
+### ✏️ find()메서드
+
+- 배열에서 특정 요소를 찾는 조건을 콜백 함수를 통해 전달하여 조건에 해당하는 첫번째 요소값을 반환
+
+        <script>
+            const scores = [78, 84, 98, 100, 67, 87];
+            arr = scores.find(function(score) { //배열 scores에서 sorces >= 90을 만족하는 첫번째 요소를 찾음 (배열을 앞에서 부터 차례대로 검사)
+                return score >=90;
+            });
+            document.getElementById("show").innerHTML = arr;
+        </script>
+
+- 매개변수로 콜백 함수가 사용
+
+        function(score) {
+          return score >= 90;
+        }
+
+### ✏️ forEach()메서드
+
+- 배열 각 요소에 대해 매개변수로 설정된 함수를 실행

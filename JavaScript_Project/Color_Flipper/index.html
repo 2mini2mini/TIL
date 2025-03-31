@@ -39,17 +39,17 @@
       ];
       // btnCilckerHander()함수
       function btnClickHandler() {
-        let hexcode = "#"; // hex 색상 시작 기호(#)
+        let hexcode = "#"; // HEX 색상 시작 기호(#)
         for (let i = 0; i < 6; i++) {
-          hexcode += hexElements[getRandomNumber()]; //for문을 이용해 6자리 hex색상을 랜덤으로 생성
+          hexcode += hexElements[getRandomNumber()]; //for문을 이용해 6자리 HEX색상을 랜덤으로 생성
         }
 
         document.querySelector(
           ".content h1 span:last-child"
-        ).innerText = `${hexcode}`; //h1의 마지막 span 태그에 생성된 hex코드 표시
+        ).innerText = `${hexcode}`; //h1의 마지막 span 태그에 생성된 HEX코드 표시
         document.body.style.backgroundColor = hexcode; // body 배경색을 변경
         document.querySelector(".content h1 span:last-child").style.color =
-          hexcode; //hex코드 색상을 글자 색상으로 변경
+          hexcode; //HEX코드 색상을 글자 색상으로 변경
       }
 
       // getRandomNumber()함수
