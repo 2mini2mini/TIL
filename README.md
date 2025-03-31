@@ -10,6 +10,7 @@
 - [240701](./Git/240701.md) git add/commit/push 취소/변경하기
 - [240702](./Git/240702.md) 로컬저장소 변경사항 임시 보관 및 불러오기
 - [240705](./Git/240705.md) 수정 내역 보기
+  ㄴ
 
 ## 📖 JavaScript
 
@@ -19,4 +20,4 @@
 
 ## 🖥️ JavaScript Project
 
-- [250331](https://2mini2mini.github.io/TIL/JavaScript_Project/ColorFlipper/index.html) Color Flipper
+- [250331](https://2mini2mini.github.io/TIL/JavaScript_Project/Color_Flipper/index.html) Color Flipper
