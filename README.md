@@ -19,4 +19,4 @@
 
 ## 🖥️ JavaScript Project
 
-- [250331](./JavaScript_Project/ColorFlipper/index.html) Color Flipper
+- [250331](https://2mini2mini.github.io/your-repo-name/JavaScript_Project/ColorFlipper/index.html) Color Flipper
