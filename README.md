@@ -19,4 +19,5 @@
 
 ## 🖥️ Vanilla JavaScript
 
-- [250331](https://2mini2mini.github.io/TIL/JavaScript_Project/Color_Flipper/index.html) Color Flipper
+- [250331](https://2mini2mini.github.io/TIL/Vanilla_Js/Color_Flipper/index.html) Color Flipper 만들기기
+- [250401](https://2mini2mini.github.io/TIL/Vanilla_Js/Counter/index.html) Counter 만들기기
