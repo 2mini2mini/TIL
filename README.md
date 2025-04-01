@@ -17,6 +17,6 @@
 - [240717~](./JavaScript/chapter_2.md) 2. 데이터 형과 연산자
 - [250331](./JavaScript/chapter_9-3.md) 9.3 배열 요소 추출/검색
 
-## 🖥️ JavaScript Project
+## 🖥️ Vanilla JavaScript
 
 - [250331](https://2mini2mini.github.io/TIL/JavaScript_Project/Color_Flipper/index.html) Color Flipper
