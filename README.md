@@ -21,3 +21,5 @@
 
 - [250331](https://2mini2mini.github.io/TIL/Vanilla_Js/Color_Flipper/index.html) Color Flipper 만들기
 - [250401](https://2mini2mini.github.io/TIL/Vanilla_Js/Counter/index.html) Counter 만들기
+- [250402](https://2mini2mini.github.io/TIL/Vanilla_Js/Review_Carousel/index.html) Review Carousel 만들기
+  만들기
