@@ -74,3 +74,22 @@
 ### ✏️ forEach()메서드
 
 - 배열 각 요소에 대해 매개변수로 설정된 함수를 실행
+
+        <script>
+            const animals = ["사자", "호랑이", "사슴", "펭귄"];
+            let text = "";
+            animals.forEach(func); //배열의 각 요소를 하나씩 꺼내서  func라는 함수에 전달해주는 반복문
+            function func(item,index) {
+                text += index + ":  " +item + "<br>"; //foreach로 부터 받은 item과 index를 받아서 text에 "0: 사자<br>" 같은 형태의 문자열 계속 추가
+            }
+            document.getElementById("show").innerHTML = text;
+        </script>
+
+        <script>
+            const animals = ["사자", "호랑이", "사슴", "펭귄"];
+            let text = "";
+            for (let i = 0; i < animals.length; i++) { //for반복문을 사용해서 배열에 있는 동물들을 하나씩 꺼내고,
+                text += i + ": " + animals[i] + "<br>"; //인덱스(i)와 함께 문자열로 만들어서 text에 계속 이어 붙임
+            }
+            document.getElementById("show").innerHTML = text;
+        </script>
