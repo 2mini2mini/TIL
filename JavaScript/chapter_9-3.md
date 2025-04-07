@@ -93,3 +93,17 @@
             }
             document.getElementById("show").innerHTML = text;
         </script>
+
+### ✏️ map()메서드
+
+- 배열 각 요소에 대해 매개변수로 설정된 함수를 실행하여 얻어진 요소들을 구성된 새로운 배열을 반환
+
+        <script>
+            const numbers = [1, 2, 3, 4, 5];
+            let arr = numbers.map(function(num) { //map()은 배열numbers의 각 요소에 대해 함수를 실행
+                return num * num;
+            })
+            document.getElementById("show").innerHTML = arr;
+        </script>
+
+### 🚨 잠깐 퀴즈! 오답
