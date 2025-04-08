@@ -23,4 +23,4 @@
 - [250401](https://2mini2mini.github.io/TIL/Vanilla_Js/Counter/index.html) Counter 만들기
 - [250402](https://2mini2mini.github.io/TIL/Vanilla_Js/Review_Carousel/index.html) Review Carousel 만들기
   만들기
-- [250407](https://2mini2mini.github.io/TIL/Vanilla_Js/Review_Carousel/index.html) 반응형 Navbar 만들기
+- [250407](https://2mini2mini.github.io/TIL/Vanilla_Js/Navber/index.html) 반응형 Navbar 만들기
