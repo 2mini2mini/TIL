@@ -17,6 +17,7 @@
 - [240717~](./JavaScript/chapter_2.md) 2. 데이터 형과 연산자
 - [250331~](./JavaScript/chapter_9-3.md) 9.3 배열 요소 추출/검색
 - [250409~](./JavaScript/chapter_9-4.md) 9.4 배열 병합/복사/정렬
+- [250416~](./JavaScript/chapter_9-5.md) 9.5 2차원 배열열
 
 ## 🖥️ Vanilla JavaScript
 
