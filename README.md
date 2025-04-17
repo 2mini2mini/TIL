@@ -38,8 +38,6 @@
 | [250402](https://2mini2mini.github.io/TIL/Vanilla_Js/Review_Carousel/index.html) | 🖼️ Review Carousel 만들기 |
 | [250407](https://2mini2mini.github.io/TIL/Vanilla_Js/Navbar/index.html)          | 📱 반응형 Navbar 만들기   |
 
-> ❗️**오타 주의**: `Navber` → `Navbar` (링크가 깨질 수 있어!)
-
 ---
 
 ## 🛠️ 업무 이슈 해결
