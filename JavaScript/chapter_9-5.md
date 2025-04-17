@@ -62,8 +62,26 @@ EX) const arr = [
 
 ### ✏️ 2차원 배열의 합계와 평균
 
-### 🚨 잠깐 퀴즈! 오답
+    <script>
+      const scores = [
+        [83, 90, 70, 87],
+        [87, 93, 62, 83],
+        [98, 90, 77, 97],
+      ]; //3명 학생에 대한 4과목의 성적을 3행 4열로 2차원 배열 scores에 저장
+      let sum, avg;
 
-<b>9-12)</b>
+      text = "";
+      for (var i = 0; i < 3; i++) { //i는 0, 1, 2 값을 가짐 -> 이 값은 학생을 의미
+        sum = 0;
+        for (var j = 0; j < 4; j++) {
+          sum += scores[i][j];
+        } //하나의 i값, 학생에 대해 4과목 합계를 구해 sum에 저장장
+        avg = sum / 4; //성적 합계 sum을 4로 나누어 평균 값을 구해 avg에 저장
+        text += i + "번째 학생의 합계 :" + sum + ",평균: " + avg + "<br>";
+      }
+      document.getElementById("show").innerHTML = text; // 평균 값을 저장한 text 출력
+    </script>
 
 ### 💡 알게된 기타 내용 및 느낀점
+
+- 배열 인덱스도 0부터 시작한다는 걸 알게 되었다.
