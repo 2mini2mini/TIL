@@ -27,6 +27,7 @@
 | [250409~](./JavaScript/chapter_9-4.md)  | 9.4 배열 병합/복사/정렬  |
 | [250416~](./JavaScript/chapter_9-5.md)  | 9.5 2차원 배열           |
 | [250421~](./JavaScript/chapter_10-1.md) | 10.1 Math 객체           |
+| [250512~](./JavaScript/chapter_10-2.md) | 10.2 Date 객체           |
 
 ---
 
