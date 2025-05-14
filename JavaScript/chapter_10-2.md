@@ -1,6 +1,6 @@
 ## 📖 Date 객체
 
-### ✏️ 현재 날찌와 시간
+### ✏️ 현재 날짜와 시간
 
         <script>
         const now = new Date();
@@ -46,3 +46,9 @@
         text += c;
         document.getElementById("show").innerHTML = text;
         </script>
+
+### 💡 알게된 기타 내용 및 느낀점
+
+- getMonth()는 0부터 시작해서 실제 월보다 1이 작다는 점(예: 0=1월, 11=12월)을 주의해야 한다.
+
+- 날짜 및 시간 설정 시에도 월은 0부터 시작하기 때문에 실수하기 쉬운 부분이라 기억해둬야겠다.
