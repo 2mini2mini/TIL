@@ -1,24 +1,26 @@
-## 📖 Set 객체
+## 📖 Map 객체
 
-- 요소들이 중복되지 않는 유일한 값을 가진 집합  
-  예: `new Set([1, 2, 2, 3]) → Set {1, 2, 3}`
+- 키-값으로 구성된 자료 구조
+- 키는 숫자, 문자열, 배열, 객체 등 어떠한 데이터 형도 사용 가능
+- Set객체와는 달리 요소에 순서 있음음
 
-| 구분        | Set       | 배열 (Array) |
-| ----------- | --------- | ------------ |
-| 중복 허용   | ❌ 불가능 | ✅ 가능      |
-| 순서 유지   | ✅ 유지됨 | ✅ 유지됨    |
-| 인덱스 접근 | ❌ 불가능 | ✅ 가능      |
-
-### ✏️ Set 객체 생성
+### ✏️ Map 객체 생성
 
         <script>
-        const now = new Date();
-        document.getElementById("show").innerHTML = now;
+        const fruits = new Map([
+                ["사과", 10],
+                ["오렌지", 20],
+                ["수박", 30],
+        ]);
+
+        let text = "";
+        fruits.forEach(function (value, key) {
+                text += key + ":" + value + "<br>";
+        });
+        document.getElementById("show").innerHTML = text;
         </script>
 
-- Set 객체에서는 인덱스로는 요소에 접근할 수 없고 For Of 문을 이용하여 set1 객체의 요소를 순회
-
-### ✏️ add() 메서드
+### ✏️ set() 메서드
 
 - 요소 추가할때 사용
 
