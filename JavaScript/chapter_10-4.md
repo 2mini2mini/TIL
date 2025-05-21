@@ -37,19 +37,18 @@
         document.getElementById("show").innerHTML = text;
         </script>
 
-### ✏️ size 프로퍼티
+### ✏️ get() 메서드
 
-- 요소 개수 구할때 사용
+- 특정 키에 해당하는 값을 가져오는데 사용
 
         <script>
-        const set1 = new Set("hello");
+        const fruits = new Map([
+                ["사과", 10],
+                ["오렌지", 20],
+                ["수박", 30],
+        ]);
 
-        let text = "";
-        for (let value of set1) {
-                text += value + "<br>";
-        }
-        text += "Set 크기:" + set1.size; // 객체 set1의 요소의 개수값 가짐
-        document.getElementById("show").innerHTML = text;
+        document.getElementById("show").innerHTML = fruits.get("오렌지");
         </script>
 
 ### ✏️ has() 매서드
@@ -77,3 +76,40 @@
         text += set1.has("키위");
         document.getElementById("show").innerHTML = text;
         </script>
+
+### ✏️ size 프로퍼티
+
+- 요소의 개수 구하는데 사용
+
+        <script>
+        const fruits = new Map([
+                ["사과", 10],``
+                ["오렌지", 20],
+                ["수박", 30],
+                ["키위", 40],
+        ]);
+        document.getElementById("show").innerHTML = fruits.size;
+        </script>
+
+### 🚨 잠깐 퀴즈! 오답
+
+<b>10-14)</b> 다음은 Map 객체의 요소를 ForEach() 메서드로 순회하는 프로그램입니다. 빈 칸을 채워보세요.
+<b>실행결과</b>
+title: 나의 꿈
+author: 홍길동
+price: 12000
+
+    const book = new Map([
+        ["title", "나의 꿈"],
+        ["author", "홍길동"],
+        ["price", 12000]
+    ]);
+
+    book.forEach(function(ㅁ, ㅁ) {
+        document.write(key + ": " + value + "<br>");
+    })
+
+    ❌오답:key, value
+
+    ⭕️정답: value, key
+    ✳️풀이: Map.prototype.forEach() 메서드는 콜백 함수에 value, key, map 순으로 인자를 전달
