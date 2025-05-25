@@ -1,8 +1,6 @@
-## 📖 Map 객체
+## 📖 문서 객체 모델(DOM)이란?
 
-- 키-값으로 구성된 자료 구조
-- 키는 숫자, 문자열, 배열, 객체 등 어떠한 데이터 형도 사용 가능
-- Set객체와는 달리 요소에 순서 있음
+- 웹 페이지의 HTML 요소들을 자바스크립트가 다룰 수 있도록 객체로 만든 구조
 
 ### ✏️ Map 객체 생성
 
@@ -31,7 +29,7 @@
         set1.add("수박");
 
         let text = "";
-        set1.forEach(function (value) { //  forEach문을 이용 set1객체의 요소 순회
+        set1.forEach(function (value) { //  forEach문을 이용 set1객체의 요소 순회회
                 text += value + "<br>";
         });
         document.getElementById("show").innerHTML = text;

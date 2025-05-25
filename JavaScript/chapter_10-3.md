@@ -29,7 +29,7 @@
         set1.add("수박");
 
         let text = "";
-        set1.forEach(function (value) { //  forEach문을 이용 set1객체의 요소 순회회
+        set1.forEach(function (value) { //  forEach문을 이용 set1객체의 요소 순회
                 text += value + "<br>";
         });
         document.getElementById("show").innerHTML = text;

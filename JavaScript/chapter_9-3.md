@@ -8,7 +8,7 @@
             const fruits = ["사과", "오렌지", "수박", "감", "수박", "딸기", "키위"];
             let index1 = fruits.indexOf("수박");
             let index2 = fruits.indexOf("수박",3); //'수박'을 검색할때 인덱스 3의 위치에서 시작
-            let index3 = fruits.indexOf("바나나"); //'바나나' 가 존재하지 않기 때문에 -1를 반환환
+            let index3 = fruits.indexOf("바나나"); //'바나나' 가 존재하지 않기 때문에 -1를 반환
 
             let text = "";
             text +=index1 + "<br>";
