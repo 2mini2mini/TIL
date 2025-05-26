@@ -2,38 +2,48 @@
 
 - 웹 페이지의 HTML 요소들을 자바스크립트가 다룰 수 있도록 객체로 만든 구조
 
-### ✏️ Map 객체 생성
+### ✏️ DOM의 구조
 
-        <script>
-        const fruits = new Map([
-                ["사과", 10],
-                ["오렌지", 20],
-                ["수박", 30],
-        ]);
+- HTML의 요소, 속성, 내용 등으로 구성된 트리 구조를 가짐
 
-        let text = "";
-        fruits.forEach(function (value, key) {
-                text += key + ":" + value + "<br>";
-        });
-        document.getElementById("show").innerHTML = text;
-        </script>
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <meta charset="utf-8" />
+        <title>브라우저 제목</title>
+        </head>
+        <body>
+        <h1>글 제목</h1>
+        <p>단락 내용</p>
+        </body>
+        </html>
 
-### ✏️ set() 메서드
+- Document
+  └── html
+  ├── head
+  │ ├── meta (charset="utf-8")
+  │ └── title
+  │ └── "브라우저 제목"
+  └── body
+  ├── h1
+  │ └── "글 제목"
+  └── p
+  └── "단락 내용"
 
-- 요소 추가할때 사용
+### ✏️ DOM 메서드와 프로퍼티
 
-        <script>
-        const set1 = new Set(); //빈 Set 객체 생성
-        set1.add("사과"); //add()메서드 이용해 요소 추가
-        set1.add("오렌지");
-        set1.add("수박");
-
-        let text = "";
-        set1.forEach(function (value) { //  forEach문을 이용 set1객체의 요소 순회회
-                text += value + "<br>";
-        });
-        document.getElementById("show").innerHTML = text;
-        </script>
+        <!DOCTYPE html>
+         <html>
+          <head>
+           <meta charset="utf-8" />
+          </head>
+          <body>
+           <p id="p1"></p>
+           <script>
+            document.getElementById("p1").innerHTML = "안녕!";
+           </script>
+          </body>
+        </html>
 
 ### ✏️ get() 메서드
 
